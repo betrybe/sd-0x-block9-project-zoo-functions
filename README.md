@@ -22,7 +22,7 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
     * Exemplo: `git checkout master`
   * Agora, crie uma branch onde você vai guardar os `commits` do seu projeto
     * Você deve criar uma branch no seguinte formato: `nome-de-usuario-nome-do-projeto`
-    * Exemplo: `git checkout -b joaozinho-project-zoo-functions`
+    * Exemplo: `git checkout -b exemplo-zoo-functions`
 
 3. Desenvolva a solução para os problemas no arquivo `src/zoo.js`. Você pode usar o arquivo `src/zoo.test.js` para verificar se a sua implementação está de acordo com o esperado;
 
@@ -39,7 +39,7 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
         * `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
 
 5. Adicione a sua branch com o novo `commit` ao repositório remoto
-  * Usando o exemplo anterior: `git push -u origin joaozinho-project-zoo-functions`
+  * Usando o exemplo anterior: `git push -u origin exemplo-zoo-functions`
 
 6. Crie um novo `Pull Request` _(PR)_
   * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-03-block9-project-zoo-functions/pulls)
