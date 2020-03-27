@@ -10,7 +10,7 @@ function animalsOlderThan(animal, age) {
 
 function employeeByName(employeeName) {
   // seu código aqui
-};
+}
 
 function createEmployee(personalInfo, associatedWith) {
   // seu código aqui
@@ -53,17 +53,17 @@ function employeeCoverage(idOrName) {
 }
 
 module.exports = {
-  entryCalculator: entryCalculator,
-  schedule: schedule,
-  animalCount: animalCount,
-  animalMap: animalMap,
-  animalsByIds: animalsByIds,
-  employeeByName: employeeByName,
-  employeeCoverage: employeeCoverage,
-  addEmployee: addEmployee,
-  isManager: isManager,
-  animalsOlderThan: animalsOlderThan,
-  oldestFromFirstSpecies: oldestFromFirstSpecies,
-  increasePrices: increasePrices,
-  createEmployee: createEmployee
+  entryCalculator,
+  schedule,
+  animalCount,
+  animalMap,
+  animalsByIds,
+  employeeByName,
+  employeeCoverage,
+  addEmployee,
+  isManager,
+  animalsOlderThan,
+  oldestFromFirstSpecies,
+  increasePrices,
+  createEmployee,
 }
