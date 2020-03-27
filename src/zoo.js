@@ -1,8 +1,9 @@
-const data = require('./data')
+const data = require('./data');
 
 function animalsByIds(ids) {
   // seu código aqui
-};
+}
+
 function animalsOlderThan(animal, age) {
   // seu código aqui
 }
@@ -25,19 +26,19 @@ function addEmployee(id, firstName, lastName, managers, responsibleFor) {
 
 function animalCount(species) {
   // seu código aqui
-};
+}
 
 function entryCalculator(entrants) {
   // seu código aqui
-};
+}
 
 function animalMap(options) {
   // seu código aqui
-};
+}
 
 function schedule(dayName) {
   // seu código aqui
-};
+}
 
 function oldestFromFirstSpecies(id) {
   // seu código aqui
@@ -49,7 +50,7 @@ function increasePrices(percentage) {
 
 function employeeCoverage(idOrName) {
   // seu código aqui
-};
+}
 
 module.exports = {
   entryCalculator: entryCalculator,
