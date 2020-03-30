@@ -1,3 +1,5 @@
+/*eslint no-unused-vars: "error" */
+
 const data = require('./data');
 
 function animalsByIds(ids) {
