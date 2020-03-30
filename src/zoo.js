@@ -1,4 +1,5 @@
-/* eslint no-unused-vars: ["error", { "args": "none", "vars": "local" }]*/
+/* eslint no-unused-vars: ["error", { "args": "none", "vars": "local" }] */
+/*global data */
 
 const data = require('./data');
 
