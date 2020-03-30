@@ -19,8 +19,6 @@ jobs:
       - name: Jest evaluator step
         id: test
         uses: betrybe/jest-evaluator-action@v2
-        env:
-          TEST_REPOSITORY_BRANCH: configure-automatic-tests
         if: steps.wait-for-build.outputs.conclusion == 'success'
       - name: Store evaluation step
         uses: betrybe/store-evaluation-action@v1
