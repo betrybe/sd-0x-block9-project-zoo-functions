@@ -24,7 +24,7 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
     * Você deve criar uma branch no seguinte formato: `nome-de-usuario-nome-do-projeto`
     * Exemplo: `git checkout -b exemplo-zoo-functions`
 
-3. Desenvolva a solução para os problemas no arquivo `src/zoo.js`. Você pode usar o arquivo `src/zoo.test.js` para verificar se a sua implementação está de acordo com o esperado;
+3. Desenvolva a solução para os problemas no arquivo `src/zoo.js`. Você pode usar os arquivos do diretório `test` para verificar se a sua implementação está de acordo com o esperado;
 
 4. Adicione as mudanças ao _stage_ do Git e faça um `commit`
   * Verifique que as mudanças ainda não estão no _stage_
