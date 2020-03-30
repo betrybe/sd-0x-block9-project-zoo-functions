@@ -5,7 +5,7 @@ describe('animalCount', () => {
   it('test', () => {
     let actual, expected;
 
-    // sem parâmetros, returna animais e suas quantidades
+    // sem parâmetros, retorna animais e suas quantidades
     actual = zoo.animalCount();
     expected = {
       'lions': 4,
