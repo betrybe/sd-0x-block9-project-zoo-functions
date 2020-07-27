@@ -66,6 +66,8 @@ Vocẽ deverá implementar as funções que estão no `src/zoo.js` para passarem
 
 Utilize as novas funcionalidades do ES6 como arrow functions, template literals, spread operator, parâmetro rest, object destructuring, entre as outras. Utilize também as _High Order Functions_.
 
+**Dica**: uma importante soft-skill é saber como gerenciar seu tempo. Alguns exercícios são mais difíceis que outros, e não estão em ordem de complexidade. Caso tenha dificuldade para realizar algum exercício, pule-o, resolva outro, e quando se sentir confortável, volte ao exercício em questão. A ideia é não ficar preso a um problema por um longo período. Realizar outros exercícios pode te ajudar a enxergar e/ou aprender novas maneiras de se chegar ao resultado esperado.
+
 Antes de começar analise o arquivo `src/data.js`, para ver os dados que serão usados.
 
 ### 1- Implemente a função animalsByIds:
