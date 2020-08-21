@@ -13,7 +13,7 @@ describe('Implemente a função animalMap', () => {
     assert.deepEqual(zoo.animalMap(), expected);
   });
 
-  it('Com a opção `includeNames = true` especificada, retorna nomes de animais', () => {
+  it('Com a opção `includeNames: true` especificada, retorna nomes de animais', () => {
     const options = { includeNames: true };
     const actual = zoo.animalMap(options);
     const expected = {
@@ -116,7 +116,7 @@ describe('Implemente a função animalMap', () => {
     assert.deepEqual(actual, expected);
   });
 
-  it('Só retorna informações ordenadas e com sexo se a opção `includeNames = true` for especificada', () => {
+  it('Só retorna informações ordenadas e com sexo se a opção `includeNames: true` for especificada', () => {
     let options = { sex: 'female' }
     let actual = zoo.animalMap(options)['NE'][0];
     let expected = 'lions';
