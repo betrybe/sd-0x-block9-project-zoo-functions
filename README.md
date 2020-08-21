@@ -104,10 +104,10 @@ Antes de começar analise o arquivo `src/data.js`, para ver os dados que serão 
 
 ### 9- Implemente a função animalMap:
   - Sem parâmetros, retorna animais categorizados por localização
-  - Com opções especificadas, retorna nomes de animais
-  - Com opções especificadas, retorna nomes de animais ordenados
-  - Com opções especificadas, retorna somente nomes de animais macho/fêmea
-  - Só retorna informações específicas de gênero se `includeNames` for setado
+  - Com a opção `includeNames = true` especificada, retorna nomes de animais
+  - Com a opção `sorted: true` especificada, retorna nomes de animais ordenados
+  - Com a opção `sex: 'female'` ou `sex: 'male'` especificada, retorna somente nomes de animais macho/fêmea
+  - Só retorna informações ordenadas e com sexo se a opção `includeNames = true` for especificada
 
 ### 10- Implemente a função schedule:
   - Sem parâmetros, retorna um cronograma legível para humanos
