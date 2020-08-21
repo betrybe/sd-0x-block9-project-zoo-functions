@@ -1,13 +1,10 @@
 const assert = require('assert');
 const zoo = require('../src/zoo');
 
-describe('animalCount', () => {
-  it('test', () => {
-    let actual, expected;
+describe('Implemente a função animalCount', () => {
 
-    // sem parâmetros, retorna animais e suas quantidades
-    actual = zoo.animalCount();
-    expected = {
+  it('Sem parâmetros, retorna animais e suas quantidades', () => {
+    const expected = {
       'lions': 4,
       'tigers': 2,
       'bears': 3,
@@ -18,18 +15,18 @@ describe('animalCount', () => {
       'elephants': 4,
       'giraffes': 6
     };
+    const actual = zoo.animalCount();
 
     assert.deepEqual(actual, expected);
+  });
 
-    // com o nome de uma espécie de animal, retorna somente a quantidade
-    actual = zoo.animalCount('lions');
-    expected = 4;
-
+  it('Com o nome de uma espécie de animal, retorna somente a quantidade', () => {
+    let actual = zoo.animalCount('lions');
+    let expected = 4;
     assert.deepEqual(actual, expected);
 
     actual = zoo.animalCount('snakes');
     expected = 2;
-
     assert.deepEqual(actual, expected);
   });
 });

@@ -1,13 +1,10 @@
 const assert = require('assert');
 const zoo = require('../src/zoo');
 
-describe('schedule', () => {
-  it('test', () => {
-    let actual, expected, options;
-
-    // sem parâmetros, retorna um cronograma legível para humanos
-    actual = zoo.schedule();
-    expected = {
+describe('Implemente a função schedule', () => {
+  it('Sem parâmetros, retorna um cronograma legível para humanos', () => {
+    const actual = zoo.schedule();
+    const expected = {
       'Tuesday': 'Open from 8am until 6pm',
       'Wednesday': 'Open from 8am until 6pm',
       'Thursday': 'Open from 10am until 8pm',
@@ -18,21 +15,19 @@ describe('schedule', () => {
     };
 
     assert.deepEqual(actual, expected);
+  })
 
-    // se um único dia for passado, retorna somente este dia em um formato
-    // legível para humanos
-    actual = zoo.schedule('Monday');
-    expected = {
+  it('Se um único dia for passado, retorna somente este dia em um formato legível para humanos', () => {
+    let actual = zoo.schedule('Monday');
+    let expected = {
       'Monday': 'CLOSED'
     };
-
     assert.deepEqual(actual, expected);
 
     actual = zoo.schedule('Tuesday');
     expected = {
       'Tuesday': 'Open from 8am until 6pm'
     };
-
     assert.deepEqual(actual, expected);
   });
 });
