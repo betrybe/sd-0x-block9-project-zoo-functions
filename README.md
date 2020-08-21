@@ -85,7 +85,7 @@ Antes de começar analise o arquivo `src/data.js`, para ver os dados que serão 
   - Quando provido o último nome do funcionário, retorna o objeto do funcionário
 
 ### 4- Implemente a função createEmployee:
-  - Cria um novo colaborador a partir de objetos contendo informações pessoais, gerentes e animais gerenciados
+  - Cria um novo colaborador a partir de objetos contendo `informações pessoais` e `gerentes e animais gerenciados`.
 
 ### 5- Implemente a função isManager:
   - Testa se o id passado é de um gerente
