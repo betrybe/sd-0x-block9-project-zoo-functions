@@ -29,7 +29,7 @@ describe('Implemente a função employeeCoverage', () => {
     assert.deepEqual(actual, expected);
   });
 
-  it('Com o último nome de um um funcionário, retorna os animais pelos quais o funcionário é responsável', () => {
+  it('Com o último nome de um funcionário, retorna os animais pelos quais o funcionário é responsável', () => {
     const actual = zoo.employeeCoverage('Azevado');
     const expected = { 'Ardith Azevado': ['tigers', 'bears'] };
     assert.deepEqual(actual, expected);
