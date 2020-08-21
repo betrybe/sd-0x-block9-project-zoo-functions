@@ -178,8 +178,10 @@ Antes de começar analise o arquivo `src/data.js`, para ver os dados que serão 
   1. `git status` _(para verificar o que está em vermelho - fora do stage - e o que está em verde - no stage)_
   2. `git add` _(para adicionar arquivos ao stage do Git)_
   3. `git commit` _(para criar um commit com os arquivos que estão no stage do Git)_
-  5. `git push -u nome-da-branch` _(para enviar o commit para o repositório remoto na primeira vez que fizer o `push` de uma nova branch)_
   4. `git push` _(para enviar o commit para o repositório remoto após o passo anterior)_
+  5. `git push -u nome-da-branch` _(para enviar o commit para o repositório remoto na primeira vez que fizer o `push` de uma nova branch)_
+  6. `npm test` _(executa todos os testes presentes na aplicação)_
+  7. `npm test path/to/file` _(executa apenas os testes presentes no arquivo path/to/file)_
 
 ---
 
