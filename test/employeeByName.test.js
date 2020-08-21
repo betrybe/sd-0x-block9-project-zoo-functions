@@ -1,19 +1,16 @@
 const assert = require('assert');
 const zoo = require('../src/zoo');
 
-describe('employeeByName', () => {
-  it('test', () => {
-    let actual, expected;
-
-    // sem parâmetros, retorna um objeto vazio
-    actual = zoo.employeeByName();
-    expected = {};
-
+describe('Implemente a função employeeByName', () => {
+  it('Sem parâmetros, retorna um objeto vazio', () => {
+    const actual = zoo.employeeByName();
+    const expected = {};
     assert.deepEqual(actual, expected);
+  });
 
-    // quando provido o primeiro nome do funcionário, retorna o objeto do funcionário
-    actual = zoo.employeeByName('Emery');
-    expected = {
+  it('Quando provido o primeiro nome do funcionário, retorna o objeto do funcionário', () => {
+    const actual = zoo.employeeByName('Emery');
+    const expected = {
       id: 'b0dc644a-5335-489b-8a2c-4e086c7819a2',
       firstName: 'Emery',
       lastName: 'Elser',
@@ -24,10 +21,11 @@ describe('employeeByName', () => {
     };
 
     assert.deepEqual(actual, expected);
+  });
 
-    // quando provido o último nome do funcionário, retorna o objeto do funcionário
-    actual = zoo.employeeByName('Wishart');
-    expected = {
+  it('Quando provido o último nome do funcionário, retorna o objeto do funcionário', () => {
+    const actual = zoo.employeeByName('Wishart');
+    const expected = {
       id: '56d43ba3-a5a7-40f6-8dd7-cbb05082383f',
       firstName: 'Wilburn',
       lastName: 'Wishart',
