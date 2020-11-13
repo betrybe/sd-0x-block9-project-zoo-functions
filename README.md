@@ -6,6 +6,12 @@ Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora
 
 Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir desse repositório, utilizando uma branch específica e um _Pull Request_ para colocar seus códigos.
 
+Neste projeto, verificamos se você é capaz de:
+- Produzir código mais legível, conciso e expressivo utilizando as novas funcionalidades do ES6
+- Utilizar as _Higher Order Functions_ para manipular e criar arrays
+- Escolher a _Higher Order Function_ mais adequada para a obtenção de um resultado esperado
+- Aprender a usar de forma conjunta as _Higher Order Functions_
+
 ---
 
 ## Instruções para entregar seu projeto:
