@@ -6,6 +6,10 @@ Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora
 
 Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir desse repositório, utilizando uma branch específica e um _Pull Request_ para colocar seus códigos.
 
+---
+
+## Habilidades
+
 Neste projeto, verificamos se você é capaz de:
 - Produzir código mais legível, conciso e expressivo utilizando as novas funcionalidades do ES6
 - Utilizar as _Higher Order Functions_ para manipular e criar arrays
@@ -16,11 +20,11 @@ Neste projeto, verificamos se você é capaz de:
 
 ## Entregáveis
 
-### O que deverá ser desenvolvido
+### O QUE DEVERÁ SER DESENVOLVIDO
 
 Você implementará várias funções para atender aos requisitos propostos e garantir que todas as funções passem nos testes unitários.
 
-### Desenvolvimento
+### DESENVOLVIMENTO
 
 Este repositório contém um _template_ de uma aplicação **NodeJS** (observe a existência do arquivo _package.json_).
 Após clonar o projeto e instalar as dependências, você não precisará realizar nenhuma configuração adicional.
@@ -35,19 +39,15 @@ Cada função possui um bloco de comentários em suas primeiras linhas explicand
 
 Você só deve alterar os arquivos indicados nos requisitos. **Os arquivos que não estão indicados nos requisitos não devem ser alterados, ou sua avaliação poderá ser comprometida.**
 
-### Data de Entrega
+### DATA DE ENTREGA
 
-O Prazo para entrega é de **7 dias corridos** após o último dia de projeto.
-
-**Exemplo:** Se o último dia de projeto aconteceu na **quarta-feira, dia 17 de junho**, seu prazo final de entrega será na **quarta-feira 24 de junho** às **14 horas**.
-
-Vale ressaltar que os projetos podem ter mais de um dia de duração, por isso, o prazo de **7 dias** é contado a partir do último dia de projeto.
+  - O projeto tem até a seguinte data: `dd/mm/yyyy - 14:00h` para ter entregue a avaliação final.
 
 ---
 
-## Instruções para entregar seu projeto:
+## Instruções para entregar seu projeto
 
-### ANTES DE COMEÇAR A DESENVOLVER:
+### ANTES DE COMEÇAR A DESENVOLVER
 
 1. Clone o repositório
   * `git clone https://github.com/tryber/sd-0x-project-zoo-functions.git`.
@@ -197,7 +197,7 @@ Antes de começar analise o arquivo `src/data.js`, para ver os dados que serão 
 
 ---
 
-# AVISOS FINAIS
+## AVISOS FINAIS
 
 Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência preenchendo o formulário. Leva menos de 3 minutos!
 
