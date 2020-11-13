@@ -8,15 +8,34 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 
 ---
 
-## Habilidades
+## HABILIDADES
 
 Neste projeto, verificamos se você é capaz de:
+
 - Produzir código mais legível, conciso e expressivo utilizando as novas funcionalidades do ES6
 - Utilizar as _Higher Order Functions_ para manipular e criar arrays
 - Escolher a _Higher Order Function_ mais adequada para a obtenção de um resultado esperado
 - Aprender a usar de forma conjunta as _Higher Order Functions_
 
 ---
+
+## SUMÁRIO
+
+- [Entregáveis](#entregáveis)
+  - [O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
+  - [Desenvolvimento](#o-que-deverá-ser-desenvolvido)
+  - [Data de entrega](#data-de-entrega)
+- [Instruções para entregar seu projeto](#instruções-para-entregar-seu-projeto)
+  - [Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
+  - [Durante o desenvolvimento](#durante-o-desenvolvimento)
+  - [Depois de terminar o desenvolvimento](#depois-de-terminar-o-desenvolvimento)
+- [Requisitos do projeto](#requisitos-do-projeto)
+- [Avisos finais](#avisos-finais)
+  - [Code Review](#revisando-um-pull-request)
+  - [Avaliação do projeto](#avaliação-do-projeto)
+  - [Ordem dos requisitos no avaliador automático](#ordem-dos-requisitos-no-avaliador-automático)
+
+--- 
 
 ## Entregáveis
 
@@ -112,7 +131,7 @@ Você só deve alterar os arquivos indicados nos requisitos. **Os arquivos que n
   6. `npm test` _(executa todos os testes presentes na aplicação)_
   7. `npm test path/to/file` _(executa apenas os testes presentes no arquivo path/to/file)_
 
-### DEPOIS DE TERMINAR O DESENVOLVIMENTO
+### DEPOIS DE TERMINAR O DESENVOLVIMENTO (OPCIONAL)
 
 Para **"entregar"** seu projeto, siga os passos a seguir:
 
@@ -197,11 +216,21 @@ Antes de começar analise o arquivo `src/data.js`, para ver os dados que serão 
 
 ---
 
-## AVISOS FINAIS
+## Avisos Finais
+
+### REVISANDO UM PULL REQUEST
+
+À medida que você e as outras pessoas que estudam na Trybe forem entregando os projetos, vocês receberão um alerta via Slack para também fazer a revisão dos Pull Requests dos seus colegas. Fiquem atentos às mensagens do "Pull Reminders" no Slack!
+
+Use o material que você já viu sobre [Code Review](https://course.betrybe.com/real-life-engineer/code-review/) para te ajudar a revisar os projetos que chegaram para você.
+
+### AVALIAÇÃO DO PROJETO
 
 Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência preenchendo o formulário. Leva menos de 3 minutos!
 
 Link: [FORMULÁRIO DE AVALIAÇÃO DE PROJETO](https://be-trybe.typeform.com/to/ZTeR4IbH)
+
+### ORDEM DOS REQUISITOS NO AVALIADOR AUTOMÁTICO
 
 O avaliador automático não necessariamente avalia seu projeto na ordem em que os requisitos aparecem no readme. Isso acontece para deixar o processo de avaliação mais rápido. Então, não se assuste se isso acontecer, ok?
 
