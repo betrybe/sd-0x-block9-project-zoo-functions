@@ -14,6 +14,37 @@ Neste projeto, verificamos se você é capaz de:
 
 ---
 
+## Entregáveis
+
+### O que deverá ser desenvolvido
+
+Você implementará várias funções para atender aos requisitos propostos e garantir que todas as funções passem nos testes unitários.
+
+### Desenvolvimento
+
+Este repositório contém um _template_ de uma aplicação **NodeJS** (observe a existência do arquivo _package.json_).
+Após clonar o projeto e instalar as dependências, você não precisará realizar nenhuma configuração adicional.
+Todos os arquivos estritamente necessários para finalizar o projeto já estão criados, **não** sendo necessária a criação de outros arquivos.
+Você deverá completar as funções e testes unitários de forma a satisfazer os requisitos listados na próxima seção.
+
+As funções a serem implementadas estão dentro da pasta `src` e seus respectivos testes estão na pasta `tests`.
+O nome dos arquivos também seguem uma ordem definida. Basicamente, os arquivos de teste possuem o nome do arquivo alvo (arquivo da funcionalidade) acrescido do nome `.spec.js`.
+Existirá um arquivo `src/exemplo.js` que conterá a implementação de uma função e um arquivo `tests/exemplo.spec.js` com os testes unitários referentes à função presente no arquivo `src/exemplo.js`.
+
+Cada função possui um bloco de comentários em suas primeiras linhas explicando qual é o trabalho que a função deve realizar.
+
+Você só deve alterar os arquivos indicados nos requisitos. **Os arquivos que não estão indicados nos requisitos não devem ser alterados, ou sua avaliação poderá ser comprometida.**
+
+### Data de Entrega
+
+O Prazo para entrega é de **7 dias corridos** após o último dia de projeto.
+
+**Exemplo:** Se o último dia de projeto aconteceu na **quarta-feira, dia 17 de junho**, seu prazo final de entrega será na **quarta-feira 24 de junho** às **14 horas**.
+
+Vale ressaltar que os projetos podem ter mais de um dia de duração, por isso, o prazo de **7 dias** é contado a partir do último dia de projeto.
+
+---
+
 ## Instruções para entregar seu projeto:
 
 ### ANTES DE COMEÇAR A DESENVOLVER:
