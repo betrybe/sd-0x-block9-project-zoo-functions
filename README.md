@@ -12,7 +12,7 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 
 Neste projeto, verificamos se você é capaz de:
 
-- Produzir código mais legível, conciso e expressivo utilizando as novas funcionalidades do ES6
+- Produzir código legível, conciso e expressivo utilizando as novas funcionalidades do ES6
 - Utilizar as _Higher Order Functions_ para manipular e criar arrays
 - Escolher a _Higher Order Function_ mais adequada para a obtenção de um resultado esperado
 - Aprender a usar de forma conjunta as _Higher Order Functions_
@@ -113,10 +113,10 @@ Você só deve alterar os arquivos indicados nos requisitos. **Os arquivos que n
 
 ### DURANTE O DESENVOLVIMENTO
 
-* ⚠ **LEMBRE-SE DE CRIAR TODOS OS ARQUIVOS DENTRO DA PASTA COM O SEU NOME** ⚠
+* 📌 **LEMBRE-SE DE CRIAR TODOS OS ARQUIVOS DENTRO DA PASTA COM O SEU NOME** 
 
-* ⚠ **PULL REQUESTS COM ISSUES NO CODE CLIMATE NÃO SERÃO AVALIADAS, ATENTE-SE PARA RESOLVÊ-LAS ANTES DE FINALIZAR O DESENVOLVIMENTO!** ⚠
-* ⚠️ **OS NOMES DOS ARQUIVOS NÃO DEVEM SER ALTERADOS!** ⚠️ Você pode adicionar outros arquivos, se julgar necessário. Qualquer dúvida, procure a Pessoa Instrutora que te acompanha.
+* 📌 **PULL REQUESTS COM ISSUES NO CODE CLIMATE NÃO SERÃO AVALIADAS, ATENTE-SE PARA RESOLVÊ-LAS ANTES DE FINALIZAR O DESENVOLVIMENTO!** 
+* 📌 **OS NOMES DOS ARQUIVOS NÃO DEVEM SER ALTERADOS!** Você pode adicionar outros arquivos, se julgar necessário. Qualquer dúvida, procure a Pessoa Instrutora que te acompanha.
 
 * Faça `commits` das alterações que você fizer no código regularmente
 
@@ -143,7 +143,7 @@ Para **"entregar"** seu projeto, siga os passos a seguir:
 
 Se ainda houver alguma dúvida sobre como entregar seu projeto, [aqui tem um video explicativo](https://vimeo.com/362189205).
 
-⚠ Lembre-se que garantir que todas as _issues_ comentadas pelo CodeClimate estão resolvidas! ⚠
+📌 Lembre-se que garantir que todas as _issues_ comentadas pelo CodeClimate estão resolvidas!
 
 ---
 
