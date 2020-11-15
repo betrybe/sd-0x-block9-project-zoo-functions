@@ -83,24 +83,24 @@ Você só deve alterar os arquivos indicados nos requisitos. **Os arquivos que n
     * Exemplo: `git checkout master`
   * Agora crie uma branch para qual você vai submeter os `commits` do seu projeto
     * Você deve criar uma branch no seguinte formato: `nome-de-usuario-nome-do-projeto`
-    * Exemplo: `git checkout -b exemplo-zoo-functions`
+    * Exemplo: `git checkout -b luiza-zoo-functions-project`
 
 4. Desenvolva a solução para os problemas no arquivo `src/zoo.js`. Você pode usar os arquivos do diretório `test` para verificar se a sua implementação está de acordo com o esperado;
 
 5. Adicione as mudanças ao _stage_ do Git e faça um `commit`
   * Verifique que as mudanças ainda não estão no _stage_
-    * Exemplo: `git status` (deve aparecer listada a pasta _joaozinho_ em vermelho)
+    * Exemplo: `git status` (o arquivo `src/zoo.js` deve aparecer em vermelho)
   * Adicione o novo arquivo ao _stage_ do Git
       * Exemplo:
         * `git add .` (adicionando todas as mudanças - _que estavam em vermelho_ - ao stage do Git)
-        * `git status` (deve aparecer listado o arquivo _joaozinho/README.md_ em verde)
+        * `git status` (deve aparecer listado o arquivo `src/zoo.js` em verde)
   * Faça o `commit` inicial
       * Exemplo:
         * `git commit -m 'iniciando o projeto. VAMOS COM TUDO :rocket:'` (fazendo o primeiro commit)
         * `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
 
 6. Adicione a sua branch com o novo `commit` ao repositório remoto
-  * Usando o exemplo anterior: `git push -u origin exemplo-zoo-functions`
+  * Usando o exemplo anterior: `git push -u origin luiza-zoo-functions-project`
 
 7. Crie um novo `Pull Request` _(PR)_
   * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-0x-project-zoo-functions/pulls)
