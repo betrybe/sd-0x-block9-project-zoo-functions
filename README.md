@@ -141,7 +141,7 @@ Para **"entregar"** seu projeto, siga os passos a seguir:
 
 Se ainda houver alguma dúvida sobre como entregar seu projeto, [aqui tem um video explicativo](https://vimeo.com/362189205).
 
-📌 Lembre-se que garantir que todas as _issues_ comentadas pelo CodeClimate estão resolvidas!
+📌 **LEMBRE-SE DE GARANTIR QUE TODAS AS ISSUES COMENTADAS PELO CODECLIMATE ESTÃO RESOLVIDAS**
 
 ---
 
