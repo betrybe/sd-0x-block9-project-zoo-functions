@@ -29,7 +29,7 @@ Neste projeto, verificamos se você é capaz de:
 - [Instruções para entregar seu projeto](#instruções-para-entregar-seu-projeto)
   - [Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
   - [Durante o desenvolvimento](#durante-o-desenvolvimento)
-  - [Depois de terminar o desenvolvimento](#depois-de-terminar-o-desenvolvimento)
+  - [Depois de terminar o desenvolvimento (opcional)](#depois-de-terminar-o-desenvolvimento-opcional)
 - [Requisitos do projeto](#requisitos-do-projeto)
 - [Avisos finais](#avisos-finais)
   - [Code Review](#revisando-um-pull-request)
@@ -130,8 +130,7 @@ Você só deve alterar os arquivos indicados nos requisitos. **Os arquivos que n
   6. `npm test` _(executa todos os testes presentes na aplicação)_
   7. `npm test path/to/file` _(executa apenas os testes presentes no arquivo path/to/file)_
 
-### DEPOIS DE TERMINAR O DESENVOLVIMENTO
-#### (OPCIONAL)
+### DEPOIS DE TERMINAR O DESENVOLVIMENTO (OPCIONAL)
 
 Para **"entregar"** seu projeto, siga os passos a seguir:
 
