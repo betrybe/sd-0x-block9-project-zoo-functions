@@ -166,41 +166,68 @@ Utilize as novas funcionalidades do ES6 como arrow functions, template literals,
 
 **Dica**: uma importante soft-skill é saber como gerenciar seu tempo. Alguns exercícios são mais difíceis que outros, e não estão em ordem de complexidade. Caso tenha dificuldade para realizar algum exercício, pule-o, resolva outro, e, quando se sentir confortável, volte ao exercício em questão. A ideia é não ficar preso a um problema por um longo período. Realizar outros exercícios pode te ajudar a enxergar e/ou aprender novas maneiras de se chegar ao resultado esperado.
 
-Antes de começar analise o arquivo `src/data.js`, para ver os dados que serão usados.
+Antes de começar, analise o arquivo `src/data.js`, para ver os dados que serão usados.
 
 ### 1. IMPLEMENTE A FUNÇÃO animalsByIds
+
+  **O que será avaliado**
+
   - Caso receba nenhum parâmetro, necessário retornar um array vazio
   - Ao receber como parâmetro um único id, retorna um array com a espécie referente à esse id
   - Ao receber mais de um id, retorna um array com as espécies referentes aos ids
 
 ### 2. IMPLEMENTE A FUNÇÃO animalsOlderThan
+
+  **O que será avaliado**
+
   - Ao passar o nome de uma espécie e uma idade, testa se todos os animais desta
  espécie possuem a idade mínima especificada
 
 ### 3. IMPLEMENTE A FUNÇÃO employeeByName
+
+  **O que será avaliado**
+
   - Sem parâmetros, retorna um objeto vazio
   - Quando provido o primeiro nome do funcionário, retorna o objeto do funcionário
   - Quando provido o último nome do funcionário, retorna o objeto do funcionário
 
 ### 4. IMPLEMENTE A FUNÇÃO createEmployee
+
+  **O que será avaliado**
+
   - Cria um novo colaborador a partir de objetos contendo `informações pessoais` e `gerentes e animais gerenciados`.
 
 ### 5. IMPLEMENTE A FUNÇÃO isManager
+
+  **O que será avaliado**
+
   - Testa se o id passado é de um gerente
 
 ### 6. IMPLEMENTE A FUNÇÃO addEmployee
+
+  **O que será avaliado**
+
   - Adiciona um funcionário no fim da lista
 
 ### 7. IMPLEMENTE A FUNÇÃO animalCount
+
+  **O que será avaliado**
+
   - Sem parâmetros, retorna animais e suas quantidades
   - Com o nome de uma espécie de animal, retorna somente a quantidade
 
 ### 8. IMPLEMENTE A FUNÇÃO entryCalculator
+
+  **O que será avaliado**
+
   - Retorna 0 se nenhum argumento for passado
   - Retorna 0 se um objeto vazio for passado
   - Retorna o preço total a ser cobrado dado o número de adultos, crianças e idosos
 
 ### 9. IMPLEMENTE A FUNÇÃO animalMap
+
+  **O que será avaliado**
+
   - Sem parâmetros, retorna animais categorizados por localização
   - Com a opção `includeNames: true` especificada, retorna nomes de animais
   - Com a opção `sorted: true` especificada, retorna nomes de animais ordenados
@@ -209,18 +236,30 @@ Antes de começar analise o arquivo `src/data.js`, para ver os dados que serão 
   - Só retorna informações ordenadas e com sexo se a opção `includeNames: true` for especificada
 
 ### 10. IMPLEMENTE A FUNÇÃO schedule
+
+  **O que será avaliado**
+
   - Sem parâmetros, retorna um cronograma legível para humanos
   - Se um único dia for passado, retorna somente este dia em um formato legível para humanos
 
 ### 11. IMPLEMENTE A FUNÇÃO oldestFromFirstSpecies
+
+  **O que será avaliado**
+
   - Passado o id de um funcionário, encontra a primeira espécie de animal
   gerenciado pelo funcionário, e retorna um array com nome, sexo e idade do
   animal mais velho dessa espécie
 
 ### 12. IMPLEMENTE A FUNÇÃO increasePrices
+
+  **O que será avaliado**
+
   - Ao passar uma porcentagem, incrementa todos os preços, arrendondados em duas casas decimais
 
 ### 13. IMPLEMENTE A FUNÇÃO employeeCoverage
+
+  **O que será avaliado**
+
   - Sem parâmetros, retorna uma lista de funcionários e os animais pelos quais eles são responsáveis
   - Com o id de um funcionário, retorna os animais pelos quais o funcionário é responsável
   - Com o primeiro nome de um funcionário, retorna os animais pelos quais o funcionário é responsável
