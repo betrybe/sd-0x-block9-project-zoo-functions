@@ -10,7 +10,7 @@ describe('Implemente a função animalMap', () => {
       SW: ['frogs', 'snakes']
     };
 
-    assert.deepEqual(zoo.animalMap(), expected);
+    assert.deepStrictEqual(zoo.animalMap(), expected);
   });
 
   it('Com a opção `includeNames: true` especificada, retorna nomes de animais', () => {
@@ -36,7 +36,7 @@ describe('Implemente a função animalMap', () => {
       ]
     };
 
-    assert.deepEqual(actual, expected);
+    assert.deepStrictEqual(actual, expected);
   });
 
   it('Com a opção `sorted: true` especificada, retorna nomes de animais ordenados', () => {
@@ -61,7 +61,7 @@ describe('Implemente a função animalMap', () => {
       ]
     };
 
-    assert.deepEqual(actual, expected);
+    assert.deepStrictEqual(actual, expected);
   });
 
   it('Com a opção `sex: \'female\'` ou `sex: \'male\'` especificada, retorna somente nomes de animais macho/fêmea', () => {
@@ -87,7 +87,7 @@ describe('Implemente a função animalMap', () => {
       ]
     };
 
-    assert.deepEqual(actual, expected);
+    assert.deepStrictEqual(actual, expected);
   });
 
   it('Com a opção `sex: \'female\'` ou `sex: \'male\'` especificada e a opção `sort: true` especificada, retorna somente nomes de animais macho/fêmea com os nomes dos animais ordenados', () => {
@@ -113,7 +113,7 @@ describe('Implemente a função animalMap', () => {
       ]
     };
 
-    assert.deepEqual(actual, expected);
+    assert.deepStrictEqual(actual, expected);
   });
 
   it('Só retorna informações ordenadas e com sexo se a opção `includeNames: true` for especificada', () => {
