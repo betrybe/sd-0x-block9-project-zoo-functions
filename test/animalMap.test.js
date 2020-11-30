@@ -120,11 +120,11 @@ describe('Implemente a função animalMap', () => {
     let options = { sex: 'female' }
     let actual = zoo.animalMap(options)['NE'][0];
     let expected = 'lions';
-    assert.equal(actual, expected);
+    assert.strictEqual(actual, expected);
 
     options = { sex: 'female', sorted: true }
     actual = zoo.animalMap(options)['NE'][0];
     expected = 'lions';
-    assert.equal(actual, expected);
+    assert.strictEqual(actual, expected);
   });
 });
