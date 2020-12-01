@@ -3,32 +3,32 @@ const zoo = require('../src/zoo');
 
 describe('Implemente a função entryCalculator', () => {
   it('Retorna 0 se nenhum argumento for passado', () => {
-    assert.equal(zoo.entryCalculator(), 0);
+    assert.strictEqual(zoo.entryCalculator(), 0);
   });
 
   it('Retorna 0 se um objeto vazio for passado', () => {
-    assert.equal(zoo.entryCalculator({}), 0);
+    assert.strictEqual(zoo.entryCalculator({}), 0);
   });
 
   it('Retorna o preço total a ser cobrado dado o número de adultos, crianças e idosos', () => {
     let entrants = { 'Adult': 2, 'Child': 3, 'Senior': 1 };
     let actual = zoo.entryCalculator(entrants);
-    assert.equal(actual, 187.94);
+    assert.strictEqual(actual, 187.94);
 
     entrants = { 'Adult': 1 };
     actual = zoo.entryCalculator(entrants);
-    assert.equal(actual, 49.99);
+    assert.strictEqual(actual, 49.99);
 
     entrants = { 'Senior': 1 };
     actual = zoo.entryCalculator(entrants);
-    assert.equal(actual, 24.99);
+    assert.strictEqual(actual, 24.99);
 
     entrants = { 'Child': 1 };
     actual = zoo.entryCalculator(entrants);
-    assert.equal(actual, 20.99);
+    assert.strictEqual(actual, 20.99);
 
     entrants = { 'Child': 1, 'Senior': 1 };
     actual = zoo.entryCalculator(entrants);
-    assert.equal(actual, 45.98);
+    assert.strictEqual(actual, 45.98);
   });
 });

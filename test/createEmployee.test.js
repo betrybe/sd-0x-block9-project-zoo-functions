@@ -36,6 +36,6 @@ describe('Implemente a função createEmployee', () => {
       ]
     };
 
-    assert.deepEqual(zoo.createEmployee(personalInfo, associatedWith), expected);
+    assert.deepStrictEqual(zoo.createEmployee(personalInfo, associatedWith), expected);
   });
 });

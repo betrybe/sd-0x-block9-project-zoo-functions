@@ -11,7 +11,7 @@ describe('Implemente a função increasePrices', () => {
       'Senior': 37.49,
       'Child': 31.49
     };
-    assert.deepEqual(data.prices, expected);
+    assert.deepStrictEqual(data.prices, expected);
 
     zoo.increasePrices(30);
     expected = {
@@ -19,6 +19,6 @@ describe('Implemente a função increasePrices', () => {
       'Senior': 48.74,
       'Child': 40.94
     };
-    assert.deepEqual(data.prices, expected);
+    assert.deepStrictEqual(data.prices, expected);
   });
 });

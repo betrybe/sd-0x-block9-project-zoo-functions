@@ -5,10 +5,10 @@ describe('Implemente a função animalsOlderThan', () => {
   it('Ao passar o nome de uma espécie e uma idade, testa se todos os animais desta espécie possuem a idade mínima especificada', () => {
     let actual = zoo.animalsOlderThan('otters', 7);
     let expected = true;
-    assert.deepEqual(actual, expected);
+    assert.deepStrictEqual(actual, expected);
 
     actual = zoo.animalsOlderThan('penguins', 10);
     expected = false;
-    assert.deepEqual(actual, expected);
+    assert.deepStrictEqual(actual, expected);
   });
 });

@@ -14,7 +14,7 @@ describe('Implemente a função schedule', () => {
       'Monday': 'CLOSED'
     };
 
-    assert.deepEqual(actual, expected);
+    assert.deepStrictEqual(actual, expected);
   })
 
   it('Se um único dia for passado, retorna somente este dia em um formato legível para humanos', () => {
@@ -22,12 +22,12 @@ describe('Implemente a função schedule', () => {
     let expected = {
       'Monday': 'CLOSED'
     };
-    assert.deepEqual(actual, expected);
+    assert.deepStrictEqual(actual, expected);
 
     actual = zoo.schedule('Tuesday');
     expected = {
       'Tuesday': 'Open from 8am until 6pm'
     };
-    assert.deepEqual(actual, expected);
+    assert.deepStrictEqual(actual, expected);
   });
 });

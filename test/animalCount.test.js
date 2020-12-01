@@ -17,16 +17,16 @@ describe('Implemente a função animalCount', () => {
     };
     const actual = zoo.animalCount();
 
-    assert.deepEqual(actual, expected);
+    assert.deepStrictEqual(actual, expected);
   });
 
   it('Com o nome de uma espécie de animal, retorna somente a quantidade', () => {
     let actual = zoo.animalCount('lions');
     let expected = 4;
-    assert.deepEqual(actual, expected);
+    assert.deepStrictEqual(actual, expected);
 
     actual = zoo.animalCount('snakes');
     expected = 2;
-    assert.deepEqual(actual, expected);
+    assert.deepStrictEqual(actual, expected);
   });
 });
