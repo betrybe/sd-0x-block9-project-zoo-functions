@@ -15,7 +15,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
- evaluator_job:
+  evaluator_job:
     runs-on: ubuntu-18.04
     name: Evaluator job
     needs: [eslint]
