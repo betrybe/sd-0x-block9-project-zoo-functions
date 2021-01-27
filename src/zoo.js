@@ -11,7 +11,7 @@ eslint no-unused-vars: [
 
 const data = require('./data');
 
-function animalsByIds(ids) {
+function speciesByIds(ids) {
   // seu código aqui
 }
 
@@ -68,7 +68,7 @@ module.exports = {
   schedule,
   animalCount,
   animalMap,
-  animalsByIds,
+  speciesByIds,
   employeeByName,
   employeeCoverage,
   addEmployee,
