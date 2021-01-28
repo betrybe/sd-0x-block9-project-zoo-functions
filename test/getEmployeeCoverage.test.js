@@ -1,7 +1,7 @@
 const assert = require('assert');
 const zoo = require('../src/zoo');
 
-describe('Implemente a função employeeCoverage', () => {
+describe('Implemente a função getEmployeeCoverage', () => {
   it('Sem parâmetros, retorna uma lista de funcionários e os animais pelos quais eles são responsáveis', () => {
     const expected = {
       'Nigel Nelson': ['lions', 'tigers'],
@@ -14,23 +14,23 @@ describe('Implemente a função employeeCoverage', () => {
       'Emery Elser': ['elephants', 'bears', 'lions']
     };
 
-    assert.deepStrictEqual(zoo.employeeCoverage(), expected);
+    assert.deepStrictEqual(zoo.getEmployeeCoverage(), expected);
   });
 
   it('Com o id de um funcionário, retorna os animais pelos quais o funcionário é responsável', () => {
-    const actual = zoo.employeeCoverage('4b40a139-d4dc-4f09-822d-ec25e819a5ad');
+    const actual = zoo.getEmployeeCoverage('4b40a139-d4dc-4f09-822d-ec25e819a5ad');
     const expected = { 'Sharonda Spry': ['otters', 'frogs'] };
     assert.deepStrictEqual(actual, expected);
   });
 
   it('Com o primeiro nome de um funcionário, retorna os animais pelos quais o funcionário é responsável', () => {
-    const actual = zoo.employeeCoverage('Stephanie');
+    const actual = zoo.getEmployeeCoverage('Stephanie');
     expected = { 'Stephanie Strauss': ['giraffes', 'otters'] };
     assert.deepStrictEqual(actual, expected);
   });
 
   it('Com o último nome de um funcionário, retorna os animais pelos quais o funcionário é responsável', () => {
-    const actual = zoo.employeeCoverage('Azevado');
+    const actual = zoo.getEmployeeCoverage('Azevado');
     const expected = { 'Ardith Azevado': ['tigers', 'bears'] };
     assert.deepStrictEqual(actual, expected);
   });
