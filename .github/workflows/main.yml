@@ -18,6 +18,7 @@ jobs:
   evaluator_job:
     runs-on: ubuntu-18.04
     name: Evaluator job
+    needs: [eslint]
     steps:
       - uses: actions/checkout@v2
       - name: Jest evaluator step
@@ -25,10 +26,10 @@ jobs:
         uses: betrybe/jest-evaluator-action@v5
         with:
           repository-test-name: 'betrybe/sd-0x-project-zoo-functions-tests'
-          repository-test-branch: 'Improvement'
+          repository-test-branch: 'master'
       - name: Store evaluation step
         uses: betrybe/store-evaluation-action@v2
         with:
           evaluation-data: ${{ steps.test.outputs.result }}
-          environment: staging
+          environment: production
           pr-number: ${{ steps.test.outputs.pr-number }}
