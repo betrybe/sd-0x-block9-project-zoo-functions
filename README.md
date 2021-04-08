@@ -126,7 +126,7 @@ Você só deve alterar os arquivos indicados nos requisitos. **Os arquivos que n
 
 ### DURANTE O DESENVOLVIMENTO
 
-📌 **PULL REQUESTS COM ISSUES NO CODE CLIMATE NÃO SERÃO AVALIADAS, ATENTE-SE PARA RESOLVÊ-LAS ANTES DE FINALIZAR O DESENVOLVIMENTO!**
+📌 **PULL REQUESTS COM ISSUES NO ESLINT NÃO SERÃO AVALIADAS, ATENTE-SE PARA RESOLVÊ-LAS ANTES DE FINALIZAR O DESENVOLVIMENTO!**
  
 📌 **OS NOMES DOS ARQUIVOS NÃO DEVEM SER ALTERADOS!** Você pode adicionar outros arquivos, se julgar necessário. Qualquer dúvida, procure a Pessoa Instrutora que te acompanha.
 
@@ -154,7 +154,7 @@ Para **"entregar"** seu projeto, siga os passos a seguir:
 
 Se ainda houver alguma dúvida sobre como entregar seu projeto, [aqui tem um video explicativo](https://vimeo.com/362189205).
 
-📌 **LEMBRE-SE DE GARANTIR QUE TODAS AS ISSUES COMENTADAS PELO CODECLIMATE ESTÃO RESOLVIDAS**
+📌 **LEMBRE-SE DE GARANTIR QUE TODAS AS ISSUES COMENTADAS PELO ESLINT ESTÃO RESOLVIDAS**
 
 ---
 
