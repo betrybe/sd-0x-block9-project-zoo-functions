@@ -1,15 +1,15 @@
 {
   "requirements": [
     {
-      "description": "Implemente a função animalsByIds",
+      "description": "Implemente a função getSpeciesByIds",
       "bonus": false
     },
     {
-      "description": "Implemente a função animalsOlderThan",
+      "description": "Implemente a função getAnimalsOlderThan",
       "bonus": false
     },
     {
-      "description": "Implemente a função employeeByName",
+      "description": "Implemente a função getEmployeeByName",
       "bonus": false
     },
     {
@@ -25,23 +25,23 @@
       "bonus": false
     },
     {
-      "description": "Implemente a função animalCount",
+      "description": "Implemente a função countAnimals",
       "bonus": false
     },
     {
-      "description": "Implemente a função entryCalculator",
+      "description": "Implemente a função calculateEntry",
       "bonus": false
     },
     {
-      "description": "Implemente a função animalMap",
+      "description": "Implemente a função getAnimalMap",
       "bonus": false
     },
     {
-      "description": "Implemente a função schedule",
+      "description": "Implemente a função getSchedule",
       "bonus": false
     },
     {
-      "description": "Implemente a função oldestFromFirstSpecies",
+      "description": "Implemente a função getOldestFromFirstSpecies",
       "bonus": false
     },
     {
@@ -49,7 +49,7 @@
       "bonus": false
     },
     {
-      "description": "Implemente a função employeeCoverage",
+      "description": "Implemente a função getEmployeeCoverage",
       "bonus": false
     }
   ]

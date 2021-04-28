@@ -1,15 +1,15 @@
 const assert = require('assert');
 const zoo = require('../src/zoo');
 
-describe('Implemente a função employeeByName', () => {
+describe('Implemente a função getEmployeeByName', () => {
   it('Sem parâmetros, retorna um objeto vazio', () => {
-    const actual = zoo.employeeByName();
+    const actual = zoo.getEmployeeByName();
     const expected = {};
     assert.deepStrictEqual(actual, expected);
   });
 
   it('Quando provido o primeiro nome do funcionário, retorna o objeto do funcionário', () => {
-    const actual = zoo.employeeByName('Emery');
+    const actual = zoo.getEmployeeByName('Emery');
     const expected = {
       id: 'b0dc644a-5335-489b-8a2c-4e086c7819a2',
       firstName: 'Emery',
@@ -24,7 +24,7 @@ describe('Implemente a função employeeByName', () => {
   });
 
   it('Quando provido o último nome do funcionário, retorna o objeto do funcionário', () => {
-    const actual = zoo.employeeByName('Wishart');
+    const actual = zoo.getEmployeeByName('Wishart');
     const expected = {
       id: '56d43ba3-a5a7-40f6-8dd7-cbb05082383f',
       firstName: 'Wilburn',

@@ -1,7 +1,7 @@
 const assert = require('assert');
 const zoo = require('../src/zoo');
 
-describe('Implemente a função animalMap', () => {
+describe('Implemente a função getAnimalMap', () => {
   it('Sem parâmetros, retorna animais categorizados por localização', () => {
     const expected = {
       NE: ['lions', 'giraffes'],
@@ -10,12 +10,12 @@ describe('Implemente a função animalMap', () => {
       SW: ['frogs', 'snakes']
     };
 
-    assert.deepStrictEqual(zoo.animalMap(), expected);
+    assert.deepStrictEqual(zoo.getAnimalMap(), expected);
   });
 
   it('Com a opção `includeNames: true` especificada, retorna nomes de animais', () => {
     const options = { includeNames: true };
-    const actual = zoo.animalMap(options);
+    const actual = zoo.getAnimalMap(options);
     const expected = {
       NE: [
         { lions: ['Zena', 'Maxwell', 'Faustino', 'Dee'] },
@@ -41,7 +41,7 @@ describe('Implemente a função animalMap', () => {
 
   it('Com a opção `sorted: true` especificada, retorna nomes de animais ordenados', () => {
     const options = { includeNames: true, sorted: true };
-    const actual = zoo.animalMap(options);
+    const actual = zoo.getAnimalMap(options);
     const expected = {
       NE: [
         { lions: ['Dee', 'Faustino', 'Maxwell', 'Zena'] },
@@ -66,7 +66,7 @@ describe('Implemente a função animalMap', () => {
 
   it('Com a opção `sex: \'female\'` ou `sex: \'male\'` especificada, retorna somente nomes de animais macho/fêmea', () => {
     const options = { includeNames: true, sex: 'female' }
-    const actual = zoo.animalMap(options);
+    const actual = zoo.getAnimalMap(options);
     const expected = {
       NE: [
         { lions: ['Zena', 'Dee'] },
@@ -92,7 +92,7 @@ describe('Implemente a função animalMap', () => {
 
   it('Com a opção `sex: \'female\'` ou `sex: \'male\'` especificada e a opção `sort: true` especificada, retorna somente nomes de animais macho/fêmea com os nomes dos animais ordenados', () => {
     const options = { includeNames: true, sex: 'female', sorted: true }
-    const actual = zoo.animalMap(options);
+    const actual = zoo.getAnimalMap(options);
     const expected = {
       NE: [
         { lions: ['Dee', 'Zena'] },
@@ -118,12 +118,12 @@ describe('Implemente a função animalMap', () => {
 
   it('Só retorna informações ordenadas e com sexo se a opção `includeNames: true` for especificada', () => {
     let options = { sex: 'female' }
-    let actual = zoo.animalMap(options)['NE'][0];
+    let actual = zoo.getAnimalMap(options)['NE'][0];
     let expected = 'lions';
     assert.strictEqual(actual, expected);
 
     options = { sex: 'female', sorted: true }
-    actual = zoo.animalMap(options)['NE'][0];
+    actual = zoo.getAnimalMap(options)['NE'][0];
     expected = 'lions';
     assert.strictEqual(actual, expected);
   });

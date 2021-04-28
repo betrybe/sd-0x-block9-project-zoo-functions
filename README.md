@@ -31,25 +31,25 @@ Neste projeto, verificamos se você é capaz de:
   - [Durante o desenvolvimento](#durante-o-desenvolvimento)
   - [Depois de terminar o desenvolvimento (opcional)](#depois-de-terminar-o-desenvolvimento-opcional)
 - [Requisitos do projeto](#requisitos-do-projeto)
-  - [1 - Implemente a função animalsByIds](#1-implemente-a-função-animalsByIds)
-  - [2 - Implemente a função animalsOlderThan](#2-implemente-a-função-animalsOlderThan)
-  - [3 - Implemente a função employeeByName](#3-implemente-a-função-employeeByName)
-  - [4 - Implemente a função createEmployee](#4-implemente-a-função-createEmployee)
-  - [5 - Implemente a função isManager](#5-implemente-a-função-isManager)
-  - [6 - Implemente a função addEmployee](#6-implemente-a-função-addEmployee)
-  - [7 - Implemente a função animalCount](#7-implemente-a-função-animalCount)
-  - [8 - Implemente a função entryCalculator](#8-implemente-a-função-entryCalculator)
-  - [9 - Implemente a função animalMap](#9-implemente-a-função-animalMap)
-  - [10 - Implemente a função schedule](#10-implemente-a-função-schedule)
-  - [11 - Implemente a função oldestFromFirstSpecies](#11-implemente-a-função-oldestFromFirstSpecies)
-  - [12 - Implemente a função increasePrices](#12-implemente-a-função-increasePrices)
-  - [13 - Implemente a função employeeCoverage](#13-implemente-a-função-employeeCoverage)
+  - [1. Implemente a função getSpeciesByIds](#1-implemente-a-função-getSpeciesByIds)
+  - [2. Implemente a função getAnimalsOlderThan](#2-implemente-a-função-getAnimalsOlderThan)
+  - [3. Implemente a função getEmployeeByName](#3-implemente-a-função-getEmployeeByName)
+  - [4. Implemente a função createEmployee](#4-implemente-a-função-createEmployee)
+  - [5. Implemente a função isManager](#5-implemente-a-função-isManager)
+  - [6. Implemente a função addEmployee](#6-implemente-a-função-addEmployee)
+  - [7. Implemente a função countAnimals](#7-implemente-a-função-countAnimals)
+  - [8. Implemente a função calculateEntry](#8-implemente-a-função-calculateEntry)
+  - [9. Implemente a função getAnimalMap](#9-implemente-a-função-getAnimalMap)
+  - [10. Implemente a função getSchedule](#10-implemente-a-função-getSchedule)
+  - [11. Implemente a função getOldestFromFirstSpecies](#11-implemente-a-função-getOldestFromFirstSpecies)
+  - [12. Implemente a função increasePrices](#12-implemente-a-função-increasePrices)
+  - [13. Implemente a função getEmployeeCoverage](#13-implemente-a-função-getEmployeeCoverage)
 - [Avisos finais](#avisos-finais)
   - [Code Review](#revisando-um-pull-request)
   - [Avaliação do projeto](#avaliação-do-projeto)
   - [Ordem dos requisitos no avaliador automático](#ordem-dos-requisitos-no-avaliador-automático)
 
---- 
+---
 
 ## Entregáveis
 
@@ -64,10 +64,10 @@ Após clonar o projeto e instalar as dependências, você não precisará realiz
 Todos os arquivos estritamente necessários para finalizar o projeto já estão criados, **não** sendo necessária a criação de outros arquivos.
 Você deverá completar as funções e testes unitários de forma a satisfazer os requisitos listados na próxima seção.
 
-Na pasta raíz do projeto, temos a pasta `src` e a pasta `tests`. A pasta `src` é composta pelo arquivo `zoo.js`, que contém as funções a serem implementadas, e o arquivo `data.js`, que armazena os dados que serão utilizados. Já a pasta `tests`, contém os testes unitários correspondentes a cada função do arquivo `zoo.js`. 
+Na pasta raíz do projeto, temos a pasta `src` e a pasta `tests`. A pasta `src` é composta pelo arquivo `zoo.js`, que contém as funções a serem implementadas, e o arquivo `data.js`, que armazena os dados que serão utilizados. Já a pasta `tests`, contém os testes unitários correspondentes a cada função do arquivo `zoo.js`.
 
 O nome dos arquivos também segue uma ordem definida. Basicamente, os arquivos de teste possuem o nome da função alvo acrescido do nome `.spec.js`.
-O arquivo `src/zoo.js` conterá a implementação de uma função, `animalsByIds,` por exemplo, e o arquivo `tests/animalsByIds.spec.js` conterá os testes unitários referentes à função.
+O arquivo `src/zoo.js` conterá a implementação de uma função, `getSpeciesByIds,` por exemplo, e o arquivo `tests/getSpeciesByIds.spec.js` conterá os testes unitários referentes à função.
 
 Você só deve alterar os arquivos indicados nos requisitos. **Os arquivos que não estão indicados nos requisitos não devem ser alterados, ou sua avaliação poderá ser comprometida.**
 
@@ -127,7 +127,7 @@ Você só deve alterar os arquivos indicados nos requisitos. **Os arquivos que n
 ### DURANTE O DESENVOLVIMENTO
 
 📌 **PULL REQUESTS COM ISSUES NO ESLINT NÃO SERÃO AVALIADAS, ATENTE-SE PARA RESOLVÊ-LAS ANTES DE FINALIZAR O DESENVOLVIMENTO!**
- 
+
 📌 **OS NOMES DOS ARQUIVOS NÃO DEVEM SER ALTERADOS!** Você pode adicionar outros arquivos, se julgar necessário. Qualquer dúvida, procure a Pessoa Instrutora que te acompanha.
 
 * Faça `commits` das alterações que você fizer no código regularmente
@@ -160,7 +160,7 @@ Se ainda houver alguma dúvida sobre como entregar seu projeto, [aqui tem um vid
 
 ## Requisitos do projeto
 
-Vocẽ deverá implementar as funções que estão no `src/zoo.js` para passarem em cada um dos testes. O teste `test/animalsByIds.test.js`, por exemplo, testa a função `animalsByIds`, que já está criada dentro do `src/zoo.js`, embora ainda não contenha lógica alguma. Para ver o que cada função precisa retornar, basta ver o `assert` de cada um dos testes.
+Vocẽ deverá implementar as funções que estão no `src/zoo.js` para passarem em cada um dos testes. O teste `test/getSpeciesByIds.test.js`, por exemplo, testa a função `getSpeciesByIds`, que já está criada dentro do `src/zoo.js`, embora ainda não contenha lógica alguma. Para ver o que cada função precisa retornar, basta ver o `assert` de cada um dos testes.
 
 Utilize as novas funcionalidades do ES6 como arrow functions, template literals, spread operator, parâmetro rest, object destructuring, entre outras. Utilize também as _Higher Order Functions_.
 
@@ -168,13 +168,13 @@ Utilize as novas funcionalidades do ES6 como arrow functions, template literals,
 
 Antes de começar, analise o arquivo `src/data.js`, para ver os dados que serão usados.
 
-### 1. IMPLEMENTE A FUNÇÃO animalsByIds
+### 1. IMPLEMENTE A FUNÇÃO getSpeciesByIds
 
   Esta função é responsável pela busca das espécies de animais por id. Ela retorna um array contendo as espécies referentes aos ids passados como parâmetro, podendo receber um ou mais ids.
 
   **Observações técnicas**
 
-  - O parâmetro desta função pode ser alterado para atender ao requisito proposto 
+  - O parâmetro desta função pode ser alterado para atender ao requisito proposto
 
   **O que será avaliado**
 
@@ -182,20 +182,20 @@ Antes de começar, analise o arquivo `src/data.js`, para ver os dados que serão
   - Ao receber como parâmetro um único id, retorna um array com a espécie referente à esse id
   - Ao receber mais de um id, retorna um array com as espécies referentes aos ids
 
-### 2. IMPLEMENTE A FUNÇÃO animalsOlderThan
+### 2. IMPLEMENTE A FUNÇÃO getAnimalsOlderThan
 
   Esta função, a partir do nome de uma espécie e uma idade mínima, verifica se todos os animais daquela espécie possuem a idade mínima especificada
 
   **Observações técnicas**
 
-  - Deve retornar um valor booleano 
+  - Deve retornar um valor booleano
 
   **O que será avaliado**
 
   - Ao passar o nome de uma espécie e uma idade, testa se todos os animais desta
  espécie possuem a idade mínima especificada
 
-### 3. IMPLEMENTE A FUNÇÃO employeeByName
+### 3. IMPLEMENTE A FUNÇÃO getEmployeeByName
 
    Esta função é responsável pela busca das pessoas colaboradoras através do primeiro ou do último nome delas
 
@@ -238,7 +238,7 @@ Antes de começar, analise o arquivo `src/data.js`, para ver os dados que serão
 
   - Adiciona um funcionário no fim da lista
 
-### 7. IMPLEMENTE A FUNÇÃO animalCount
+### 7. IMPLEMENTE A FUNÇÃO countAnimals
 
   Esta função é responsável por contabilizar a quantidade de animais.
 
@@ -252,7 +252,7 @@ Antes de começar, analise o arquivo `src/data.js`, para ver os dados que serão
   - Sem parâmetros, retorna animais e suas quantidades
   - Com o nome de uma espécie de animal, retorna somente a quantidade
 
-### 8. IMPLEMENTE A FUNÇÃO entryCalculator
+### 8. IMPLEMENTE A FUNÇÃO calculateEntry
 
   A partir da quantidade de visitantes e a faixa etária de cada um, esta função é responsável por retornar o preço total a ser cobrado
 
@@ -266,12 +266,12 @@ Antes de começar, analise o arquivo `src/data.js`, para ver os dados que serão
   - Retorna 0 se um objeto vazio for passado
   - Retorna o preço total a ser cobrado dado o número de adultos, crianças e idosos
 
-### 9. IMPLEMENTE A FUNÇÃO animalMap
+### 9. IMPLEMENTE A FUNÇÃO getAnimalMap
 
   A função é responsável pelo mapeamento geográfico das espécies e seus animais, podendo ainda filtrá-los por ordem alfabética e gênero, por exemplo
 
   **Observações técnicas**
-  
+
   - Analise o teste unitário para entender os retornos que são esperados para esta função
 
   **O que será avaliado**
@@ -283,12 +283,12 @@ Antes de começar, analise o arquivo `src/data.js`, para ver os dados que serão
   - Com a opção `sex: 'female'` ou `sex: 'male'` especificada e a opção `sort: true` especificada, retorna somente nomes de animais macho/fêmea com os nomes dos animais ordenados
   - Só retorna informações ordenadas e com sexo se a opção `includeNames: true` for especificada
 
-### 10. IMPLEMENTE A FUNÇÃO schedule
+### 10. IMPLEMENTE A FUNÇÃO getSchedule
 
   A função é responsável por disponibilizar as informações de horário para uma consulta, que pode querer ter acesso a todo o cronograma da semana ou apenas o cronograma de um dia específico
 
   **Observações técnicas**
-  
+
   - Analise o teste unitário para entender os retornos que são esperados para esta função
 
   **O que será avaliado**
@@ -296,7 +296,7 @@ Antes de começar, analise o arquivo `src/data.js`, para ver os dados que serão
   - Sem parâmetros, retorna um cronograma legível para humanos
   - Se um único dia for passado, retorna somente este dia em um formato legível para humanos
 
-### 11. IMPLEMENTE A FUNÇÃO oldestFromFirstSpecies
+### 11. IMPLEMENTE A FUNÇÃO getOldestFromFirstSpecies
 
   A função busca por informações do animal mais velho da primeira espécie gerenciada pela pessoa colaboradora do parâmetro
 
@@ -319,12 +319,12 @@ Antes de começar, analise o arquivo `src/data.js`, para ver os dados que serão
 
   - Ao passar uma porcentagem, incrementa todos os preços, arrendondados em duas casas decimais
 
-### 13. IMPLEMENTE A FUNÇÃO employeeCoverage
+### 13. IMPLEMENTE A FUNÇÃO getEmployeeCoverage
 
   A função é responsável por consultar as espécies pela qual a pessoa colaborada, recebida no parâmetro através de seu `id`, `firstName` ou `lastName`, é responsável
 
   **Observações técnicas**
-  
+
   - Analise o teste unitário para entender os retornos que são esperados para esta função
 
   **O que será avaliado**
